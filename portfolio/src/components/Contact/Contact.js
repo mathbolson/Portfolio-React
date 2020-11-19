@@ -5,25 +5,33 @@ import React from "react";
 function Contact(props) {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      {/* <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
+      
+      <form>
+
+        <div class="container">
+          <div class="p-3 mb-5 bg-dark text-white" id="main-section">
+            <h1 class="border-bottom mb-4" id="h1">Contact</h1>
+            <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name"/>
+            </div>
+            <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Example@email.com"/>
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput3">Message</label>
+            <input type="text" class="form-control" id="formGroupExampleInput3" placeholder=""/>
+          </div>
+          <button type="submit" class="btn btn-primary">submit</button>
+
+
+            </div>
+
+         </div>
+
+      </form>
+     
     </div>
   );
 }
