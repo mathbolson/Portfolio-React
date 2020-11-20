@@ -1,15 +1,16 @@
 import React from "react";
 import logo from '../assets/face.jpg'; 
-
+import "./About.css";
 
 
 function About() {
   return (
     <div className="App">
       <div class="container">
-        <h1 class="border-bottom mb-4" id="h1">About me</h1>
-        <img src={logo} alt="Logo" width="400" height="400" />;
-        <p class="mt-2 text-center" id="bio-text">Welcome to my portfolio! My name is Matheus Weber Bolson. I was born in Brasilia, Brazil and it was always my dream to move to a different country and experience a different culture. When I was 21 I moved to San Diego to take college classes but was not quite sure what I wanted to study. After getting acquanited with computer science, I knew programming was a field I wanted to get into. Now I am here and ready to take my skills to the next level and pursue my dream of becoming a developer.</p>
+      <div class="p-3 mb-5 bg-dark text-white" id="text"> 
+            <h1 class="border-bottom mb-4" id="h1">About me</h1>
+            <img src={logo} alt="Logo" width="200" height="200" id="foto"/>
+            <p class="mt-2 text-center" id="bio-text">Welcome to my portfolio! My name is Matheus Weber Bolson. I was born in Brasilia, Brazil and it was always my dream to move to a different country and experience a different culture. When I was 21 I moved to San Diego to take college classes but was not quite sure what I wanted to study. After getting acquanited with computer science, I knew programming was a field I wanted to get into. Now I am here and ready to take my skills to the next level and pursue my dream of becoming a developer.</p>
         <div id="pics">
           <h4>Social Medias</h4>
           <a href="https://github.com/mathbolson"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="social" alt="GitHub" width="80" height="80"/></a>
@@ -28,6 +29,7 @@ function About() {
             <a href="tel:+018582621033"><img src="https://icon-library.com/images/phone-calling-icon/phone-calling-icon-0.jpg" class="social" alt="number" width="80" height="80"/></a>
 
 
+      </div>
       </div>
     </div>
   );

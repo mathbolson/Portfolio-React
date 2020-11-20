@@ -1,0 +1,18 @@
+  #logoname {
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 80px;
+    
+  }
+  #logo {
+    margin-bottom: 0px !important;
+  }
+
+  .nav-link {
+    color: white;
+    float: right;
+    font-size: 20px;
+    font-family: 'Michroma', sans-serif;
+  }
+ 

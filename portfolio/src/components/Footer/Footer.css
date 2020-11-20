@@ -1,0 +1,9 @@
+.footer {
+    height: 60px;
+    margin-top:auto;
+    font-family: 'Michroma', sans-serif;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }

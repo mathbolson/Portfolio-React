@@ -1,0 +1,10 @@
+form {
+    background: url("../assets/background.jpeg");
+}
+
+#main-section {
+    margin-bottom: 0px !important;
+}
+.contactBox {
+    margin-top: 50px;
+}
