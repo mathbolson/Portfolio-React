@@ -6,8 +6,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Portfolio() {
   return (
     <div className="Container">
+      <div className="caixa"></div>
       <div class="carousel-wrapper">
-            <Carousel>
+            <Carousel infiniteLoop useKeyboardArrows autoPlay > 
             <div>
                     <img src="../project5.png" alt="" />
                 </div>
@@ -27,6 +28,7 @@ function Portfolio() {
                     <img src="../project6.png" alt="" />
                 </div>
             </Carousel>
+            <div className="boxs"></div>
         </div>
       
     
