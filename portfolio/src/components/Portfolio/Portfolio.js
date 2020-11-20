@@ -1,19 +1,33 @@
 import React from "react";
 import "../Portfolio/Portfolio.css"
-// import project1 from '../assets/project1.png'; 
-// import project2 from '../assets/project2.png'; 
-// import project3 from '../assets/project3.png'; 
-// import project4 from '../assets/project4.png'; 
-// import project5 from '../assets/project5.png'; 
-
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Portfolio() {
   return (
     <div className="Container">
-      <div className='mainBox'>
-      <h1 id="portfolio-header">My Portfolio</h1>
-      </div>
-      
+      <div class="carousel-wrapper">
+            <Carousel>
+            <div>
+                    <img src="../project5.png" alt="" />
+                </div>
+                <div>
+                    <img src="../project4.png" alt="" />
+                </div>
+                <div>
+                    <img src="../project1.png" alt="" />
+                </div>
+                <div>
+                    <img src="../project2.png" alt=""/>
+                </div>
+                <div>
+                    <img src="../project3.png" alt="" />
+                </div>
+                <div>
+                    <img src="../project6.png" alt="" />
+                </div>
+            </Carousel>
+        </div>
       
     
     </div>
